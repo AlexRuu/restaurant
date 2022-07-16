@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'koreanFont';
+    src: url('./korean.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kanit';
+    src: url('./kanit.woff') format('woff');
+    font-style: normal;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleSpace {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.name {
+    font-family: 'koreanFont';
+    font-size: 6rem;
+    margin: 1.2rem;
+    letter-spacing: 1.2rem;
+}
+
+.nameEng {
+    font-family: 'kanit';
+    letter-spacing: 1.5rem;
+}
+
+.navButton {
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
