@@ -28,8 +28,8 @@ function loadTitle() {
     title.classList.add('name');
     titleBottom.classList.add('nameEng')
 
-    title.innerHTML = "토스티"
-    titleBottom.innerHTML = "The Toasty"
+    title.innerHTML = "토스트"
+    titleBottom.innerHTML = "Toast"
     titleSpace.append(title, titleBottom);
     content.appendChild(titleSpace);
 }
