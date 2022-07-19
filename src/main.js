@@ -1,6 +1,6 @@
-import Jolly from './jolly.jpeg' 
+import Jolly from './jolly.jpeg';
 
-const content = document.querySelector('#content');
+const main = document.querySelector('#mainSection');
 
 function loadMain() {
     let jollySpace = document.createElement('div');
@@ -11,9 +11,9 @@ function loadMain() {
     
     
     jollySpace.classList.add('jolly');
-    jollySpace.appendChild(jollyPic)
+    jollySpace.appendChild(jollyPic);
 
-    content.appendChild(jollySpace)
+    main.appendChild(jollySpace);
 }
 
 export {
